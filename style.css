@@ -108,14 +108,14 @@
   .nav-logo__accent { color: var(--teal); }
   .logo-mark {
     flex-shrink: 0;
-    width: 56px;
-    height: 56px;
+    width: 70px;
+    height: 70px;
     border-radius: 14px;
     display: flex;
     align-items: center;
     justify-content: center;
     background: rgba(255, 255, 255, 0.06);
-    border: 1px solid var(--border);
+    border: 2px solid var(--teal2);
     overflow: hidden;
   }
   .logo-mark img {
@@ -124,6 +124,8 @@
     object-fit: contain;
     object-position: center;
     display: block;
+    color: white;
+    background-color: white;
   }
   .logo-mark--footer {
     width: 52px;
