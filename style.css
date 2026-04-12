@@ -83,6 +83,8 @@
     padding: 0 clamp(1rem, 4vw, 2.5rem);
     height: var(--nav-h);
     transition: background 0.35s, backdrop-filter 0.35s, box-shadow 0.35s;
+    box-shadow: 0 1px 0 var(--border);
+    background: rgba(5, 15, 26, 0.94);
   }
   nav.scrolled {
     background: rgba(5, 15, 26, 0.94);
@@ -226,11 +228,15 @@
   .hero {
     min-height: 100vh;
     min-height: 100dvh;
+    margin-top: -1px;
     position: relative;
     display: flex; align-items: center; justify-content: center;
     text-align: center;
-    overflow: hidden;
-    padding: clamp(5.5rem, 12vw, 7.5rem) clamp(1rem, 5vw, 2.5rem) clamp(3rem, 8vw, 4rem);
+    /* overflow: hidden; */
+    /* padding: clamp(5.5rem, 12vw, 7.5rem) clamp(1rem, 5vw, 2.5rem) clamp(3rem, 8vw, 4rem); */
+    padding-top: 2rem;
+    padding-inline: clamp(1rem, 5vw, 2.5rem);
+    padding-bottom: clamp(1rem, 5vw, 2.5rem);
   }
   #hero-canvas {
     position: absolute; inset: 0; z-index: 0;
